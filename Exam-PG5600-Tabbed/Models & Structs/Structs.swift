@@ -2,9 +2,7 @@
 //  Structs.swift
 //  Exam-PG5600-Tabbed
 //
-//  Created by Alexander Gustavsen on 16/10/2019.
-//  Copyright © 2019 Alexander Gustavsen. All rights reserved.
-//
+
 
 import Foundation
 
@@ -19,4 +17,14 @@ struct AlbumData {
 struct AlbumTracksData {
     var strTrack: String
     var intDuration: String
+}
+
+struct FavoriteTracksData {
+    var strArtist: String
+    var strTrack: String
+    var intDuration: String
+}
+
+struct ArtistData {
+    var name: String
 }

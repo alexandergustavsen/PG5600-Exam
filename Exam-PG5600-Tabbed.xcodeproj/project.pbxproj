@@ -3,27 +3,60 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5997091768B091A7C09DB5 /* Pods_Exam_PG5600_Tabbed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A20C29F71EF72320DD1E06 /* Pods_Exam_PG5600_Tabbed.framework */; };
+		CC000BC92397DE8C00868997 /* RecommendedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000BC72397DE8C00868997 /* RecommendedCollectionViewCell.swift */; };
+		CC000BCA2397DE8C00868997 /* RecommendedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC000BC82397DE8C00868997 /* RecommendedCollectionViewCell.xib */; };
+		CC4E3244235E2093009F98B2 /* AlbumsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4E3242235E2093009F98B2 /* AlbumsCollectionViewCell.swift */; };
+		CC4E3245235E2093009F98B2 /* AlbumsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4E3243235E2093009F98B2 /* AlbumsCollectionViewCell.xib */; };
+		CC5265232358854A00A57919 /* AlbumsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5265212358854A00A57919 /* AlbumsTableViewCell.swift */; };
+		CC5265242358854A00A57919 /* AlbumsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5265222358854A00A57919 /* AlbumsTableViewCell.xib */; };
+		CC559AE92359CB4400373613 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC559AE82359CB4400373613 /* SearchViewController.swift */; };
+		CC6D1F7D2360829800B0CEE9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6D1F7C2360829800B0CEE9 /* DetailViewController.swift */; };
+		CCA27642236729BB003987A0 /* TracksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA27640236729BB003987A0 /* TracksTableViewCell.swift */; };
+		CCA27643236729BB003987A0 /* TracksTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA27641236729BB003987A0 /* TracksTableViewCell.xib */; };
 		CCB3921C23575D2A0072D511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3921B23575D2A0072D511 /* AppDelegate.swift */; };
-		CCB3921E23575D2A0072D511 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3921D23575D2A0072D511 /* FirstViewController.swift */; };
-		CCB3922023575D2A0072D511 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3921F23575D2A0072D511 /* SecondViewController.swift */; };
+		CCB3921E23575D2A0072D511 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3921D23575D2A0072D511 /* FavoritesViewController.swift */; };
+		CCB3922023575D2A0072D511 /* TopAlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3921F23575D2A0072D511 /* TopAlbumsViewController.swift */; };
 		CCB3922323575D2A0072D511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB3922123575D2A0072D511 /* Main.storyboard */; };
 		CCB3922523575D2B0072D511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB3922423575D2B0072D511 /* Assets.xcassets */; };
 		CCB3922823575D2B0072D511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB3922623575D2B0072D511 /* LaunchScreen.storyboard */; };
+		CCB39230235772110072D511 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3922F235772110072D511 /* Structs.swift */; };
+		CCDFCDB0236AEA8B00561233 /* Exam-PG5600-Tabbed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCDFCDAE236AEA8B00561233 /* Exam-PG5600-Tabbed.xcdatamodeld */; };
+		CCE17EC0239A6F6C00D83A87 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE17EBE239A6F6C00D83A87 /* FavoriteTableViewCell.swift */; };
+		CCE17EC1239A6F6C00D83A87 /* FavoriteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE17EBF239A6F6C00D83A87 /* FavoriteTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02A20C29F71EF72320DD1E06 /* Pods_Exam_PG5600_Tabbed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Exam_PG5600_Tabbed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA27F097B6426041728BFEF /* Pods-Exam-PG5600-Tabbed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exam-PG5600-Tabbed.debug.xcconfig"; path = "Target Support Files/Pods-Exam-PG5600-Tabbed/Pods-Exam-PG5600-Tabbed.debug.xcconfig"; sourceTree = "<group>"; };
+		B996DAAB5EE261B08ECB1185 /* Pods-Exam-PG5600-Tabbed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exam-PG5600-Tabbed.release.xcconfig"; path = "Target Support Files/Pods-Exam-PG5600-Tabbed/Pods-Exam-PG5600-Tabbed.release.xcconfig"; sourceTree = "<group>"; };
+		CC000BC72397DE8C00868997 /* RecommendedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedCollectionViewCell.swift; sourceTree = "<group>"; };
+		CC000BC82397DE8C00868997 /* RecommendedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendedCollectionViewCell.xib; sourceTree = "<group>"; };
+		CC4E3242235E2093009F98B2 /* AlbumsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCollectionViewCell.swift; sourceTree = "<group>"; };
+		CC4E3243235E2093009F98B2 /* AlbumsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumsCollectionViewCell.xib; sourceTree = "<group>"; };
+		CC5265212358854A00A57919 /* AlbumsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewCell.swift; sourceTree = "<group>"; };
+		CC5265222358854A00A57919 /* AlbumsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumsTableViewCell.xib; sourceTree = "<group>"; };
+		CC559AE82359CB4400373613 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CC6D1F7C2360829800B0CEE9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CCA27640236729BB003987A0 /* TracksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksTableViewCell.swift; sourceTree = "<group>"; };
+		CCA27641236729BB003987A0 /* TracksTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TracksTableViewCell.xib; sourceTree = "<group>"; };
 		CCB3921823575D2A0072D511 /* Exam-PG5600-Tabbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exam-PG5600-Tabbed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB3921B23575D2A0072D511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCB3921D23575D2A0072D511 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CCB3921F23575D2A0072D511 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CCB3921D23575D2A0072D511 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		CCB3921F23575D2A0072D511 /* TopAlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsViewController.swift; sourceTree = "<group>"; };
 		CCB3922223575D2A0072D511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCB3922423575D2B0072D511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCB3922723575D2B0072D511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCB3922923575D2B0072D511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB3922F235772110072D511 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		CCC2C5DB239FAB5F00E80958 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CCDFCDAF236AEA8B00561233 /* Exam-PG5600-Tabbed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Exam-PG5600-Tabbed.xcdatamodel"; sourceTree = "<group>"; };
+		CCE17EBE239A6F6C00D83A87 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		CCE17EBF239A6F6C00D83A87 /* FavoriteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +64,84 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5997091768B091A7C09DB5 /* Pods_Exam_PG5600_Tabbed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A8C76488C8D9FB1CA12C501 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AA27F097B6426041728BFEF /* Pods-Exam-PG5600-Tabbed.debug.xcconfig */,
+				B996DAAB5EE261B08ECB1185 /* Pods-Exam-PG5600-Tabbed.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C9BDC1E46C4CEE70C8F1FBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02A20C29F71EF72320DD1E06 /* Pods_Exam_PG5600_Tabbed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC526520235884A000A57919 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CC5265212358854A00A57919 /* AlbumsTableViewCell.swift */,
+				CC5265222358854A00A57919 /* AlbumsTableViewCell.xib */,
+				CC4E3242235E2093009F98B2 /* AlbumsCollectionViewCell.swift */,
+				CC4E3243235E2093009F98B2 /* AlbumsCollectionViewCell.xib */,
+				CCA27640236729BB003987A0 /* TracksTableViewCell.swift */,
+				CCA27641236729BB003987A0 /* TracksTableViewCell.xib */,
+				CC000BC72397DE8C00868997 /* RecommendedCollectionViewCell.swift */,
+				CC000BC82397DE8C00868997 /* RecommendedCollectionViewCell.xib */,
+				CCE17EBE239A6F6C00D83A87 /* FavoriteTableViewCell.swift */,
+				CCE17EBF239A6F6C00D83A87 /* FavoriteTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CC559AE72359CAEA00373613 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3921D23575D2A0072D511 /* FavoritesViewController.swift */,
+				CCB3921F23575D2A0072D511 /* TopAlbumsViewController.swift */,
+				CC559AE82359CB4400373613 /* SearchViewController.swift */,
+				CC6D1F7C2360829800B0CEE9 /* DetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC6D1F7E2360837400B0CEE9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3922123575D2A0072D511 /* Main.storyboard */,
+				CCB3922623575D2B0072D511 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CC6D1F7F2360839500B0CEE9 /* Models & Structs */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3922F235772110072D511 /* Structs.swift */,
+				CCDFCDAE236AEA8B00561233 /* Exam-PG5600-Tabbed.xcdatamodeld */,
+			);
+			path = "Models & Structs";
+			sourceTree = "<group>";
+		};
 		CCB3920F23575D2A0072D511 = {
 			isa = PBXGroup;
 			children = (
+				CCC2C5DB239FAB5F00E80958 /* README.md */,
 				CCB3921A23575D2A0072D511 /* Exam-PG5600-Tabbed */,
 				CCB3921923575D2A0072D511 /* Products */,
+				8A8C76488C8D9FB1CA12C501 /* Pods */,
+				8C9BDC1E46C4CEE70C8F1FBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +156,23 @@
 		CCB3921A23575D2A0072D511 /* Exam-PG5600-Tabbed */ = {
 			isa = PBXGroup;
 			children = (
-				CCB3921B23575D2A0072D511 /* AppDelegate.swift */,
-				CCB3921D23575D2A0072D511 /* FirstViewController.swift */,
-				CCB3921F23575D2A0072D511 /* SecondViewController.swift */,
-				CCB3922123575D2A0072D511 /* Main.storyboard */,
+				CCDFCDB1236AF6CF00561233 /* Controller */,
+				CC6D1F7F2360839500B0CEE9 /* Models & Structs */,
+				CC6D1F7E2360837400B0CEE9 /* Storyboards */,
+				CC559AE72359CAEA00373613 /* Views */,
+				CC526520235884A000A57919 /* Cells */,
 				CCB3922423575D2B0072D511 /* Assets.xcassets */,
-				CCB3922623575D2B0072D511 /* LaunchScreen.storyboard */,
 				CCB3922923575D2B0072D511 /* Info.plist */,
 			);
 			path = "Exam-PG5600-Tabbed";
+			sourceTree = "<group>";
+		};
+		CCDFCDB1236AF6CF00561233 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3921B23575D2A0072D511 /* AppDelegate.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCB3922C23575D2B0072D511 /* Build configuration list for PBXNativeTarget "Exam-PG5600-Tabbed" */;
 			buildPhases = (
+				E4625386A8C7D1364EAA2E2E /* [CP] Check Pods Manifest.lock */,
 				CCB3921423575D2A0072D511 /* Sources */,
 				CCB3921523575D2A0072D511 /* Frameworks */,
 				CCB3921623575D2A0072D511 /* Resources */,
+				B086D30CF29EC625B13A806F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +238,75 @@
 				CCB3922823575D2B0072D511 /* LaunchScreen.storyboard in Resources */,
 				CCB3922523575D2B0072D511 /* Assets.xcassets in Resources */,
 				CCB3922323575D2A0072D511 /* Main.storyboard in Resources */,
+				CC4E3245235E2093009F98B2 /* AlbumsCollectionViewCell.xib in Resources */,
+				CC5265242358854A00A57919 /* AlbumsTableViewCell.xib in Resources */,
+				CCE17EC1239A6F6C00D83A87 /* FavoriteTableViewCell.xib in Resources */,
+				CCA27643236729BB003987A0 /* TracksTableViewCell.xib in Resources */,
+				CC000BCA2397DE8C00868997 /* RecommendedCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B086D30CF29EC625B13A806F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Exam-PG5600-Tabbed/Pods-Exam-PG5600-Tabbed-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Exam-PG5600-Tabbed/Pods-Exam-PG5600-Tabbed-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Exam-PG5600-Tabbed/Pods-Exam-PG5600-Tabbed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4625386A8C7D1364EAA2E2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Exam-PG5600-Tabbed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CCB3921423575D2A0072D511 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB3922023575D2A0072D511 /* SecondViewController.swift in Sources */,
+				CCB3922023575D2A0072D511 /* TopAlbumsViewController.swift in Sources */,
+				CCE17EC0239A6F6C00D83A87 /* FavoriteTableViewCell.swift in Sources */,
+				CC000BC92397DE8C00868997 /* RecommendedCollectionViewCell.swift in Sources */,
+				CC559AE92359CB4400373613 /* SearchViewController.swift in Sources */,
+				CCB39230235772110072D511 /* Structs.swift in Sources */,
 				CCB3921C23575D2A0072D511 /* AppDelegate.swift in Sources */,
-				CCB3921E23575D2A0072D511 /* FirstViewController.swift in Sources */,
+				CC5265232358854A00A57919 /* AlbumsTableViewCell.swift in Sources */,
+				CCA27642236729BB003987A0 /* TracksTableViewCell.swift in Sources */,
+				CCB3921E23575D2A0072D511 /* FavoritesViewController.swift in Sources */,
+				CC4E3244235E2093009F98B2 /* AlbumsCollectionViewCell.swift in Sources */,
+				CCDFCDB0236AEA8B00561233 /* Exam-PG5600-Tabbed.xcdatamodeld in Sources */,
+				CC6D1F7D2360829800B0CEE9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +450,7 @@
 		};
 		CCB3922D23575D2B0072D511 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA27F097B6426041728BFEF /* Pods-Exam-PG5600-Tabbed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +469,7 @@
 		};
 		CCB3922E23575D2B0072D511 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B996DAAB5EE261B08ECB1185 /* Pods-Exam-PG5600-Tabbed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -340,6 +508,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCDFCDAE236AEA8B00561233 /* Exam-PG5600-Tabbed.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCDFCDAF236AEA8B00561233 /* Exam-PG5600-Tabbed.xcdatamodel */,
+			);
+			currentVersion = CCDFCDAF236AEA8B00561233 /* Exam-PG5600-Tabbed.xcdatamodel */;
+			path = "Exam-PG5600-Tabbed.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CCB3921023575D2A0072D511 /* Project object */;
 }

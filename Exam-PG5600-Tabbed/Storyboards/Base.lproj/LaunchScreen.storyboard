@@ -18,22 +18,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Believers in wondrous music." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJc-I4-0HW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Believers in wondrous music." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJc-I4-0HW">
                                 <rect key="frame" x="125" y="441" width="164" height="15"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COMPLETE PLAYER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgA-HH-7yf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COMPLETE PLAYER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgA-HH-7yf">
                                 <rect key="frame" x="107" y="403" width="200" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jgA-HH-7yf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="CEh-ij-9LB"/>
+                            <constraint firstItem="vJc-I4-0HW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="CPK-Vu-Kyh"/>
+                            <constraint firstItem="vJc-I4-0HW" firstAttribute="top" secondItem="jgA-HH-7yf" secondAttribute="bottom" constant="3" id="bid-R3-1JT"/>
+                            <constraint firstItem="jgA-HH-7yf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="359" id="ePo-l9-ddd"/>
+                            <constraint firstItem="jgA-HH-7yf" firstAttribute="centerX" secondItem="vJc-I4-0HW" secondAttribute="centerX" id="gYU-TR-Btm"/>
+                            <constraint firstItem="jgA-HH-7yf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jrn-c6-buk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

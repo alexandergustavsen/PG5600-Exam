@@ -2,14 +2,15 @@
 //  AlbumsTableViewCell.swift
 //  Exam-PG5600-Tabbed
 //
-//  Created by Alexander Gustavsen on 17/10/2019.
-//  Copyright © 2019 Alexander Gustavsen. All rights reserved.
-//
 
 import UIKit
 
 class AlbumsTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var albumLabel: UILabel!
+    @IBOutlet weak var artistLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

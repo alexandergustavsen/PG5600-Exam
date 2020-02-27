@@ -1,0 +1,6 @@
+framework module Pods_Exam_PG5600_Tabbed {
+  umbrella header "Pods-Exam-PG5600-Tabbed-umbrella.h"
+
+  export *
+  module * { export * }
+}
